@@ -1,0 +1,530 @@
+.actionNotice {
+background: white;
+color: black;
+text-align: left;
+border: 1px black solid;
+}
+/*sets width of container when not pointing*/
+.ABMAnonAttachedWidth{
+	max-width: calc(76ch);
+}
+/*sets width of container to full page*/
+.ABMAfullWidth{
+width: 100%;
+max-width: 100%;
+}
+/*center and element*/
+.ABMAcenter{
+margin: auto;
+}
+/*secondary button*/
+.ABMAsecondaryBttn {
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+letter-spacing: .09rem;
+background: #4a5517;
+border: 4px #596818 solid;
+border-radius: 8px;
+min-height: 48px;
+padding: 2%;
+z-index: 1;
+position: relative;
+font-weight: 600;
+}
+.ABMAsecondaryBttn::before{
+position: absolute;
+content: "";
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: repeating-linear-gradient( 125deg, #F3F3F3 0px, #F3F3F3 1px, #596818 1px, #596818 2px );
+transition: opacity 0.5s linear;
+z-index: -1;
+opacity: 0;
+}
+.ABMAsecondaryBttn:not(:disabled):hover::before {
+opacity: 1;
+}
+.ABMAsecondaryBttn:not(:disabled):hover, .ABMAsecondaryBttn:not(:disabled):focus {
+color: black !important;
+background: #F3F3F3 !important;
+text-decoration: underline;
+}
+/*primary button*/
+.ABMAprimaryBttn {
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+letter-spacing: .09rem;
+background: #596818;
+border: 4px #596818 solid;
+border-radius: 8px;
+min-height: 48px;
+padding: 2%;
+z-index: 1;
+position: relative;
+font-weight: 600;
+}
+.ABMAprimaryBttn::before{
+position: absolute;
+content: "";
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: repeating-linear-gradient( 125deg, #F3F3F3 0px, #F3F3F3 1px, #596818 1px, #596818 2px );
+transition: opacity 0.5s linear;
+z-index: -1;
+opacity: 0;
+}
+.ABMAprimaryBttn:not(:disabled):hover::before {
+opacity: 1;
+}
+.ABMAprimaryBttn:not(:disabled):hover, .ABMAprimaryBttn:not(:disabled):focus {
+color: black !important;
+background: #596818 !important;
+text-decoration: underline;
+}
+.ABMAprimaryBttn:disabled{
+background: gray;
+color:gray;
+border-color:gray;
+}
+/*the progress bar*/
+.ABMAprogressBar {
+    font-size: 14px;
+    border-radius: 9px;
+    height: 20px;
+    width: 100%;
+    max-width: 180px;
+    padding: 3px;
+    border: 2px solid;
+}
+.ABMAprogressBar span {
+    display: block;
+    background: #596818;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+.ABMAprogressText{
+	min-width: 60px;
+}
+.ABMAprogressBarHolder{
+flex-grow: 4;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+/***the step style***/
+.shepherd-element {
+  border: solid 4px #F3F3F3;
+  background: #F3F3F3;
+  transition:max-width 0.7s ease-out;
+}
+.shepherd-header {
+background: #F3F3F3 !important;
+padding-bottom: .75em;
+}
+.shepherd-footer {
+align-items: center;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+display: flex;
+justify-content: space-between;
+padding: .75rem;
+border-top: 2px dotted;
+}
+/*content holder*/
+.shepherd-content {
+font-family: Arial, Helvetica, sans-serif;
+}
+.shepherd-text {
+  overflow-y: auto;
+  max-height: 70vh;
+ padding: 0 3ch 1em;
+/* Shadow Cover TOP */
+background:
+/* Shadow Cover TOP */
+linear-gradient(
+   #F3F3F3 30%,
+  rgba(255, 255, 255, 0)
+) center top,
+
+/* Shadow Cover BOTTOM */
+linear-gradient(
+  rgba(255, 255, 255, 0), 
+   #F3F3F3 70%
+) center bottom,
+
+/* Shadow TOP */
+radial-gradient(
+  farthest-side at 50% 0,
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0)
+) center top,
+
+/* Shadow BOTTOM */
+radial-gradient(
+  farthest-side at 50% 100%,
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0)
+) center bottom;
+
+background-repeat: no-repeat;
+background-size: 100% 50px, 100% 50px, 100% 25px, 100% 25px;
+background-attachment: local, local, scroll, scroll;
+}
+
+/*the arrow*/
+.shepherd-element .shepherd-arrow {
+  border-width:0;
+  height:auto;
+  width:auto;
+}
+.shepherd-arrow:before {
+  display:none;
+}
+.shepherd-element .shepherd-arrow:after {
+  content:'';
+  display:inline-block;
+  background-image: url(../images/arrow.svg);
+background-size: 40px 40px;
+  height: 40px;
+  width: 40px;
+}
+.shepherd-element[data-popper-placement^=top] .shepherd-arrow {
+  bottom:-44px;
+}
+.shepherd-element[data-popper-placement^=top] .shepherd-arrow:after {
+  transform:rotate(270deg);
+}
+.shepherd-element[data-popper-placement^=bottom] .shepherd-arrow {
+  top:-44px;
+}
+.shepherd-element[data-popper-placement^=bottom] .shepherd-arrow:after {
+  transform:rotate(90deg);
+}
+.shepherd-element[data-popper-placement^=left] .shepherd-arrow{
+  right:-44px;
+}
+.shepherd-element[data-popper-placement^=left] .shepherd-arrow:after {
+  transform:rotate(180deg);
+}
+.shepherd-element[data-popper-placement^=right] .shepherd-arrow {
+  left:-44px;
+}
+.abmHighlight {
+	width: 95%;
+}
+/*CodeMirror*/
+.codeExample{
+color: #000 !important;
+background: #fff4d4;
+font-weight: bold;
+}
+.incorrectCode{
+	background:red;
+}
+/*the more info holder*/
+.abmMoreInfoHolder {
+padding: .5em;
+border: 3px #596818 solid;
+border-radius: 8px;
+margin: .7em 0;
+}
+.abmMoreInfoSummary{
+font-weight:bold;	
+}
+.abmMoreInfoHolder[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; transform: translateX(-10px)}
+  100%  {opacity: 1; transform: translateX(0)}
+}
+.abmMoreInfoHolder[open] summary {
+margin-bottom: 1em;
+}
+/*citation styling*/
+.citation {
+font-size: 1em;
+border-radius: 3px;
+border-width: 2 0 2 0;
+border-color: black;
+border-style: solid;
+padding: .5em 0;
+}
+/*Intro text / holder*/
+.ABMATitleText {
+font-family: Arial, Helvetica, sans-serif	
+}
+.ABMAStartText {
+font-size: 1em;
+font-family: Arial, Helvetica, sans-serif	
+}
+/*top logo*/
+.ABMATitleLogo {
+float: left;
+width: 200px;
+margin-right: 50px;
+}
+/*bottom creative image*/
+.ABMACreativeImage {
+float: right;
+width: 550px;
+margin: 25 50px;
+}
+/*tutorial selecting buttons and holder*/
+.ABMAbttnClass{
+width: 100%;
+text-align: left;
+font-size: 1em;
+padding: 7px;
+background: #F3F3F3;
+color: BLACK;
+border-radius: 8px;
+min-height: 48px;
+border: 4px #ba4219 solid;
+font-family: "Arial", sans-serif;
+transition: font-weight 0.5s ease-in-out;
+z-index: 1;
+position: relative;
+}
+
+.ABMAbttnClass::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: repeating-linear-gradient( 125deg, #F3F3F3 0px, #F3F3F3 1px, #ba4219 1px, #ba4219 2px );
+  transition: opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+.ABMAbttnClass:hover::before {
+  opacity: 1;
+}
+
+.ABMAbttnClass:focus, .ABMAbttnClass:hover {
+font-weight: 700;
+}
+.ABMAbttnSpanClass{
+background: #F3F3F3;
+padding: 1px;
+border-radius: 3px;
+box-shadow: 0 0 3px 3px #F3F3F3;	
+box-decoration-break: clone;
+pointer-events: none;
+}
+.ABMAbttnHolderClass{
+display: inline-grid;
+grid-auto-flow: row;
+grid-column-gap: 24px;
+grid-row-gap: 3px;
+}
+.ABMASelectClass {
+text-align: left;
+font-size: 1em;
+padding: 15px;
+font-family: Arial, Helvetica, sans-serif;
+background: white;
+outline: none;
+border: gray 2px solid;
+border-radius: 8px;	
+}
+@media (min-width: 700px) {
+.ABMAbttnHolderClass{
+grid-auto-flow: column;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-auto-columns: 1fr;
+}
+}
+
+.ABMAcontrolTopHolder, .ABMAFAQHolderClass {
+width: 100%;
+padding: 1em 2em 1em;
+background: #F3F3F33D;
+box-shadow: 0px 0px 15px 2px gray;
+}
+.ABMAcontrolTopHolder {
+margin-bottom: 25px;
+}
+.ABMAFAQHolderClass {
+margin-top: 150px;
+}
+
+.ABMAcontrolHolderColumn {
+display: flex;
+gap: 10ch;	
+}
+/*FAQs*/
+.ABMAHelpInfoHolder {
+width: 100%;
+  max-width: 500px;
+}
+/*tutorial selecting buttons on action class*/
+.ABMAbttnInProgress{
+color: #212121; 
+background: #F3F3F3;
+border-color: #d9aa61;
+}
+.ABMAbttnInProgress::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+background: repeating-linear-gradient( 180deg, #F3F3F3 0px, #F3F3F3 1px, #d9aa61 1px, #d9aa61 2px );
+  transition: opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+.ABMAbttnInProgress:hover::before {
+  opacity: 1;
+}
+.ABMAbttnInProgress:focus, .ABMAbttnInProgress:hover {
+font-weight: 700;
+}
+.ABMAbttnCompleted{
+color: #000; 
+background: #F3F3F3;
+border-color: #596818;
+}
+.ABMAbttnCompleted::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+background: repeating-linear-gradient( 90deg, #F3F3F3 0px, #F3F3F3 1px, #596818 1px, #596818 2px );
+  transition: opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+.ABMAbttnCompleted:hover::before {
+  opacity: 1;
+}
+.ABMAbttnCompleted:focus, .ABMAbttnCompleted:hover {
+font-weight: 700;
+}
+/*the pause button styling*/
+.pauseHolder {
+position: fixed;
+top: 0px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1%;
+z-index: 5000;
+background: #fcf3eb;
+box-shadow: 0px 0px 25px;
+}
+.pauseButton {
+font-size: 25px;
+}
+
+/*the code element styling*/
+.codeABMA {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+	white-space: pre-wrap;
+}
+.codeblockABMA {
+	background: Gainsboro;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 5px;
+	overflow: scroll;
+	max-height:  500px;
+	padding: 2%;
+	border: 5px Gainsboro solid;
+	border-radius: 8px;
+}
+.newvar, .var {
+	font-weight: bold;
+
+	font-family: monospace;
+}
+.buttonName {
+	background-color: #BACFF3;
+	font-family: monospace;
+	padding: 3px;
+}
+.sliderName {
+	background-color: #8FE585;
+	font-family: monospace;
+	padding: 3px;
+}
+
+.comment {
+	background-color: GreenYellow;
+	font-family: monospace;
+}
+/*the mutiple action checkbox*/
+.ABMAactionCheckBox {
+width: 20px;
+height: 20px;
+outline: 1px solid #000;
+accent-color: #596818;
+pointer-events: none;
+}
+.ABMAactionCheckBoxLabel{
+	pointer-events: none;
+}
+/*fix context menu position*/
+.netlogo-model-container {
+  width: min-content;
+  position: unset;
+}
+/*Columns*/
+.ABAMcolumns{
+display: flex;
+}
+.ABAMcolumns > * {
+width: 48%;
+margin: 1%;
+}
+.ABMADetails{
+font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: .5em 0px;
+  border: 1px solid;
+  padding: .5em;
+  border-radius: 5px;
+}
+.ABMASummary{
+font-weight: bold;
+}
+.ABMAcatImage{
+width: 200px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+.ABMAcatEmoticon{
+	font-size: 40px;
+}
+/*solutions*/
+.ABMAsolutionText{
+	margin: 1em 0px;
+}
+.ABMAsolutionHolder{
+background-color: white;
+border-radius: 3px;
+font-family: courier, monospace;
+padding: 1em;
+white-space: pre-wrap;
+margin: 1em 0;
+border: 1px solid;	
+}

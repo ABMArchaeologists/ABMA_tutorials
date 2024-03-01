@@ -1,0 +1,11 @@
+run, weighted-trade-choice, metals, count turtles, count lineageA, count lineageB1, count lineageB2, total-amphora
+1, 0, true, 860, 555, 278, 0, 713010
+2, 0, false, 752, 521, 231, 0, 611280
+3, 25, true, 872, 563, 308, 0, 640310
+4, 25, false, 814, 538, 276, 0, 650540
+5, 50, true, 757, 529, 124, 104, 662060
+6, 50, false, 794, 579, 130, 85, 566190
+7, 75, true, 759, 522, 43, 187, 564960
+8, 75, false, 853, 597, 47, 209, 652780
+9, 100, true, 831, 559, 0, 272, 707450
+10, 100, false, 844, 576, 0, 268, 641790
