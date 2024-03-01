@@ -4,8 +4,7 @@ to setup
   clear-all
   let worldMap (fetch:url (word "https://raw.githubusercontent.com/SantaFeInstitute/ABMA/master/ch1/ch1_map.png"))
   import-a:pcolors worldMap
-  create-turtles 20                        ; create 20 agents
-  [                                        ; with the following state variables:
+  create-turtles 20 [                       ; create 20 agents with the following state variables:
     set color random 140                   ; color
     set size 2                             ; size
     set shape "turtle"                     ; shape
@@ -23,7 +22,6 @@ to go
     if random-float 1 <= pop_growth        ; this version is driven by population growth (slider)
        [ reproduce ]                       ; the reproduction procedure is defined below
   ]
-
   tick
 end
 
@@ -123,8 +121,6 @@ Young, D. A., \& Bettinger, R. L. (1992). The Numic Spread: A Computer
 Simulation. American Antiquity, 57 (1), 85--99.
 
 This is an example model used in chapter 1 of Romanowska, I., Wren, C., Crabtree, S. 2021. Agent-Based Modeling for Archaeology: Simulating the Complexity of Societies. Santa Fe, NM: SFI Press.
-
-Chapter 1. Code Blocks: 1.0-1.11
 
 ## HOW IT WORKS
 
