@@ -19,11 +19,11 @@ let disseminationPhase = [
 		text:'<p>'
 		+  '<b>The Dissemination Phase</b> is the last step of the model development process, but it should not be an afterthought! '
 		+  'Modeling is a time-consuming process and properly publishing and documenting your model ensures that your efforts will not go to waste.'
-		+'</p>' 
+		+'</p>'
 		+'<figure>'
 		+  '<img src="assets/images/Dissemination_Phase.png" height="75px">'
 		+  '<figcaption>The Dissemination Phase, adapted from Romanowska, 2015</figcaption>'
-		+'</figure>' 
+		+'</figure>'
 		+'<footer class="citation">'
 		+  'Romanowska, Iza. "So you think you can model? A guide to building and evaluating archaeological simulation models of dispersals." <i>Human biology</i> 87, no. 3 (2015): 169-192.'
 		+'</footer>'
@@ -67,7 +67,7 @@ let disseminationPhase = [
 		+  'When you are ready, open the code tab.'
 		+'</p>',
 		complexAdvanceOn: function() {
-			advanceOnTabs({tab:'showCode'});  
+			advanceOnTabs({tab:'showCode'});
 		},
 		attachTo:{
 			on: 'top',
@@ -112,12 +112,12 @@ let disseminationPhase = [
 		+'<figure>'
 		+  '<img src="assets/images/ODD.png" width=300px>'
 		+  '<figcaption>Components of the ODD protocol, Grimm et al., 2020</figcaption>'
-		+'</figure>' 
+		+'</figure>'
 		+'<p>'
 		+  'To see what this looks like, you can check out AmphorABM\'s <a href="https://www.mdpi.com/2073-445X/5/1/5">ODD</a> in the supplementary material.'
 		+'</p>'
 		+'<p>'
-		+  'As of 2024, the most up to date guidelines for ODDs can be found <a href="https://www.jasss.org/23/2/7/7.pdf"> here </a>'
+		+  'The most up to date (2020) guidelines for ODDs can be found <a href="https://doi.org/10.18564/jasss.4259"> here </a>'
 		+'</p>'
 		+'<footer class="citation">'
 		+  'Grimm, Volker, Steven F. Railsback, Christian E. Vincenot, Uta Berger, Cara Gallagher, Donald L. DeAngelis, Bruce Edmonds et al. '
@@ -177,5 +177,5 @@ let disseminationPhase = [
 		+'<ul>Wilensky, U. and Rand, W., 2007. Making models match: Replicating an agent-based model. Journal of Artificial Societies and Social Simulation, 10(4), p.2. </ul>'
 		+'<ul>Janssen, M.A., 2009. Understanding artificial anasazi. Journal of Artificial Societies and Social Simulation, 12(4), p.13.</ul>'
 		+'<ul>Carney, M. and Davies, B., 2020. Agent-based modeling, scientific reproducibility, and taphonomy: A successful model implementation case study. Journal of Computer Applications in Archaeology, 3(1). </ul>'
-	},	
+	},
  ];
