@@ -1,32 +1,29 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 authors:
-  - family-names: Visser
-    given-names: Ronald M.
-    orcid: https://orcid.org/0000-0001-6966-1729
-  - family-names: Jutte
-    given-names: Annemarie
-    orcid:
   - family-names: Rocks-Macqueen
     given-names: Doug
+    orcid:
+  - family-names: van der Knaap
+    given-names: Laura
     orcid:
   - family-names: Romanowska
     given-names: Iza
     orcid: https://orcid.org/0000-0002-9487-2111
+  - family-names: Jutte
+    given-names: Annemarie
+    orcid:
   - family-names: Brughmans
     given-names: Tom
     orcid: https://orcid.org/0000-0002-1589-7768
-  - family-names: van der Knaap
-    given-names: Laura
-    orcid:
+  - family-names: Visser
+    given-names: Ronald M.
+    orcid: https://orcid.org/0000-0001-6966-1729
   - family-names: Lambers
     given-names: Karsten
     orcid: https://orcid.org/0000-0001-6432-0925
   - family-names: Aitchison
     given-names: Kenneth
-    orcid:
-  - family-names: Pažout
-    given-names: Adam
     orcid:
 title: "ABMA: Lessons learned. Data and source code"
 version: 1.0.0
