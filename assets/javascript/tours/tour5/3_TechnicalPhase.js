@@ -104,7 +104,7 @@ let technicalPhase = [
 		+'</p>'
 		+'<footer class="citation">'
 		+  'Premo, Luke S. "On the role of agent-based modeling in post-positivist archaeology." In Simulating change: Archaeology into the 21st Century, pp. 28-37. '
-		+  'University of Utah Press, 2010. <i>Journal of Archaeological Science</i>, 22(1), pp.89-92.'
+		+  'University of Utah Press, 2010.'
 		+'</footer>'
 	},
 	{
