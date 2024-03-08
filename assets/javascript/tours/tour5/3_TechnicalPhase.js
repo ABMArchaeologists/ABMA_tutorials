@@ -12,7 +12,7 @@ let technicalPhase = [
 		+'<figure>'
 		+  '<img src="assets/images/Technical_Phase.png" height="75x">'
 		+  '<figcaption>The Technical Phase, adapted from Romanowska, 2015</figcaption>'
-		+'</figure>' 
+		+'</figure>'
 		+'<p>'
 		+  'In this lesson, you will learn:'
 		+'</p>'
@@ -24,7 +24,7 @@ let technicalPhase = [
 		+'<footer class="citation">'
 		+  'Romanowska, Iza. "So you think you can model? A guide to building and evaluating archaeological simulation models of dispersals." <i>Human biology</i> 87, no. 3 (2015): 169-192.'
 		+'</footer>',
-	},	
+	},
 	{
 		text:'<p>'
 		+  '<b>Step 5: Coding and testing</b>'
@@ -45,7 +45,7 @@ let technicalPhase = [
 		+'<p>'
 		+  'An important part of the coding process is the documentation. We will discuss the high-level description of the model and its publication later but at this stage, '
 		+  'you should already be producing code comments, that is the so-called inline documentation. We have skipped most of the inline documentation in the tutorials to simplify '
-		+  'the code visually and reduce the complexity to the learner. However, all code should ideally be commented and you’ll find many examples of how this is done in published models.'
+		+  'the code visually and reduce the complexity to the learner. However, all code should ideally be commented and you will find many examples of how this is done in published models.'
 		+'</p>',
 	},
 	{
@@ -72,12 +72,12 @@ let technicalPhase = [
 		+'</p>'
 		+'<p>'
 		+  'We have skipped most of the inline documentation in the tutorials to simplify the code visually and reduce the complexity for the learner. '
-		+  'However, ideally, all code will be commented on and you’ll find many examples of how this is done in published models.'
+		+  'However, ideally, all code will be commented on and you will find many examples of how this is done in published models.'
 		+'</p>',
 	},
 	{
 		text:'<p>'
-		+  '<b>Step 6: Parametrisation </b>'
+		+  '<b>Step 6: Parametrization </b>'
 		+'</p>'
 		+'<p>'
 		+  'Parameters are the values you give your model at the start of your run. These remain static, making them different from variables, which change throughout the run. '
@@ -91,15 +91,15 @@ let technicalPhase = [
 	},
 	{
 		text:'<p>'
-		+  '<b>Step 6: Parametrisation</b>'
+		+  '<b>Step 6: Parametrization</b>'
 		+'</p>'
 		+'<p>'
-		+  'Parametrisation may involve finding a topographical map of the area, or finding out what the average population growth rate among hunter-gatherers is. '
+		+  'Parametrization may involve finding a topographical map of the area, or finding out what the average population growth rate among hunter-gatherers is. '
 		+  'To avoid the “garbage in, garbage out” problem it is important to base our model on input values and ranges of values that are as secure as possible. '
 		+  'Those may come from historical sources, ethnographical datasets, or prior research.'
 		+'</p>'
 		+'<p>'
-		+  'Depending on your research question, the parametrisation process may look different. For example, models focused on exploration may be tested with wide value ranges used for parameters, '
+		+  'Depending on your research question, the parametrization process may look different. For example, models focused on exploration may be tested with wide value ranges used for parameters, '
 		+  'while models focused on hypothesis testing often employ narrower ranges based on empirical data (Premo, 2010).'
 		+'</p>'
 		+'<footer class="citation">'
@@ -109,7 +109,7 @@ let technicalPhase = [
 	},
 	{
 		text:'<p>'
-		+  '<b>Step 6: Parametrisation</b>'
+		+  '<b>Step 6: Parametrization</b>'
 		+'</p>'
 		+'<p>'
 		+  'An important technique related to parameterization is <b>sensitivity analysis</b>. In sensitivity analysis, the modeler varies each parameter - usually one at a time - '
@@ -127,7 +127,7 @@ let technicalPhase = [
 		+  '<b>Step 7. Experiment Design</b>'
 		+'</p>'
 		+'<p>'
-		+  'After parametrisation, your simulation is ready to go!'
+		+  'After parametrization, your simulation is ready to go!'
 		+'</p>'
 		+'<p>'
 		+  'But what does this “go” actually mean? This is what <b> Experiment design </b> determines! If you follow three simple questions it can be a breeze:'
@@ -170,7 +170,7 @@ let technicalPhase = [
 		+'</p>'
 		+'<p>'
 		+  'Or will you be looking for a particular range of parameter values that produces results that match patterns in archaeological data? This is called a <b>parameter sweep</b>.'
-		+'</p>'	
+		+'</p>'
 	},
 	{
 		text:'<p>'
@@ -201,7 +201,7 @@ let technicalPhase = [
 		+'</p>'
 		+'<p>'
 		+  'The most important considerations here are: how is the model initialised? and how is it stopped? In simple terms, what is the starting point of our artificial world - '
-		+  'how many agents are there? where are they located? what are their starting variables?'
+		+  'how many agents are there? Where are they located? What are their starting variables?'
 		+'</p>'
 		+'<p>'
 		+  'In a similar vein, when should the simulation stop? Sometimes this is easy to determine, for example, because all agents are dead or because we have set a specific time period we model, '
@@ -228,7 +228,7 @@ let technicalPhase = [
 		+'<figure>'
 		+  '<img src="assets/images/experiment_design.png" height="300px">'
 		+  '<figcaption>Relation between model scenarios, experiments and runs, Romanowska, Wren, and Crabtree, 2021, p.315</figcaption>'
-		+'</figure>' 
+		+'</figure>'
 		+'<p>'
 		+  'This kind of pseudo-randomness is actually beneficial when using models in science, because if the seed is reported, the results can be replicated (see the Dissemination Phase).'
 		+'</p>'
@@ -255,7 +255,7 @@ let technicalPhase = [
 		+'<p>'
 		+  'It is a truth generally held that the effort required to analyze and interpret simulation results is directly correlated with the amount of work and deep thinking that '
 		+  'went into the first step of the process: the definition of research questions. Poorly designed simulations produce results that are exceedingly difficult to analyze and interpret. '
-		+  'In simple terms, if you don’t have a good question then you’ll not get a straightforward answer. It is therefore worth putting in the work up front.'
+		+  'In simple terms, if you don’t have a good question then you will not get a straightforward answer. It is therefore worth putting in the work up front.'
 		+'</p>'
 	},
 	{
@@ -270,7 +270,7 @@ let technicalPhase = [
 		+'<p>'
 		+  'This is done by comparing the modeled output to the data. Importantly, this data should not be used as input for the model, as then we would engage in circular argumentation.'
 		+'</p>'
-		
+
 	},
 	{
 		text:'<p>'
@@ -293,10 +293,10 @@ let technicalPhase = [
 		+  '(e.g., supercomputers) once standard-issued laptops cannot take the computational load produced by their models.'
 		+'</p>'
 		+'<p>'
-		+  'The good news is that learning basic R or Python for data analysis is much easier than building full ABM models and you’re likely to acquire the necessary skills very fast.'
+		+  'The good news is that learning basic R or Python for data analysis is much easier than building full ABM models and you are likely to acquire the necessary skills very fast.'
 		+'</p>'
 	},
-	
+
 	{
 		text:'<p>'
 		+  '<b>Step 8. Analysis and interpretation of the results </b>'
@@ -315,7 +315,7 @@ let technicalPhase = [
 		+  '<li>how to analyse and interpret your model.</li>'
 		+'</ul>'
 		+'<p>'
-		+  'The Technical Phase is where you will be applying most of the skills you\'ve picked up through the tutorials, but its success largely depends on how well you conceptualized your model. '
+		+  'The Technical Phase is where you will be applying most of the skills you have picked up through the tutorials, but its success largely depends on how well you conceptualized your model. '
 		+  'For example, you might find during implementation that your model is not as well conceptualized as you initially thought, '
 		+  'in which case you will have to revisit certain elements of your model. In addition, the \'success\' of your model also largely depends on how well you document and publish it. '
 		+  'The next lesson goes more in-depth about this <b> Dissemination Phase</b>.'
