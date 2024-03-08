@@ -13,12 +13,12 @@ authors:
   - family-names: Jutte
     given-names: Annemarie
     orcid:
-  - family-names: Brughmans
-    given-names: Tom
-    orcid: https://orcid.org/0000-0002-1589-7768
   - family-names: Visser
     given-names: Ronald M.
     orcid: https://orcid.org/0000-0001-6966-1729
+  - family-names: Brughmans
+    given-names: Tom
+    orcid: https://orcid.org/0000-0002-1589-7768
   - family-names: Lambers
     given-names: Karsten
     orcid: https://orcid.org/0000-0001-6432-0925
