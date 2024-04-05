@@ -1,4 +1,4 @@
-# Agent Based Modeling for Archaeologists Tutorials
+# Agent Based Modelling for Archaeologists Tutorials
 
 To use these tutorials:
 1. Download the files in this repository as a zip folder.
