@@ -12,7 +12,7 @@ authors:
     orcid: https://orcid.org/0000-0002-9487-2111
   - family-names: Jutte
     given-names: Annemarie
-    orcid:
+    orcid: https://orcid.org/0009-0004-9322-0674
   - family-names: Visser
     given-names: Ronald M.
     orcid: https://orcid.org/0000-0001-6966-1729
@@ -24,7 +24,7 @@ authors:
     orcid: https://orcid.org/0000-0001-6432-0925
   - family-names: Aitchison
     given-names: Kenneth
-    orcid:
+    orcid: https://orcid.org/0000-0001-6594-1408
 title: "ABMA: Lessons learned. Data and source code"
 version: 1.0.0
 date-released: 2024-03-08
