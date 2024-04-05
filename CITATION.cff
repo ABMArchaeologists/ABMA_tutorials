@@ -23,7 +23,7 @@ authors:
   - family-names: Aitchison
     given-names: Kenneth
     orcid: https://orcid.org/0000-0001-6594-1408
-title: "ABMA: Lessons learned. Data and source code"
+title: "Agent Based Modelling for Archaeologists: Tutorials"
 version: 1.0.0
 date-released: 2024-04-05
 url: "https://github.com/ABMArchaeologists/ABMA_tutorials/"
