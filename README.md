@@ -1,5 +1,7 @@
 # Agent Based Modelling for Archaeologists Tutorials
 
+[![DOI](https://zenodo.org/badge/765576497.svg)](https://zenodo.org/doi/10.5281/zenodo.10931586)
+
 To use these tutorials:
 1. Download the files in this repository as a zip folder.
 2. Unzip the folder.
