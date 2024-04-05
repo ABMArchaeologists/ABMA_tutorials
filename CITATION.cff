@@ -25,5 +25,6 @@ authors:
     orcid: https://orcid.org/0000-0001-6594-1408
 title: "Agent Based Modelling for Archaeologists: Tutorials"
 version: 1.0.0
+doi: https://zenodo.org/doi/10.5281/zenodo.10931586
 date-released: 2024-04-05
 url: "https://github.com/ABMArchaeologists/ABMA_tutorials/"
