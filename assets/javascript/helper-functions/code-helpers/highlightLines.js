@@ -20,8 +20,6 @@ function highlightLines(props={}) {
 	codeMirror.addLineClass(startLine+additionalLines, "wrap", "ABMAendOfHighlight");				//add a class to the last line - helps us find it
 	
 	['complete', 'cancel', 'show', 'hide'].forEach(event => Shepherd.once(event, (e) => {
-		console.log(e);
-		console.log('test');
 		document.getElementById('ABMAlineHighlightDiv')?.remove();								//remove the highlight area
 		codeMirror.removeLineClass(startLine, "wrap", "ABMAstartOfHighlight");					//remove the class from the codeMirror line
 		codeMirror.removeLineClass(startLine+additionalLines, "wrap", "ABMAendOfHighlight");	//remove the class from the codeMirror line
