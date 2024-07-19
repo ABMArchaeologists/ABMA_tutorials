@@ -3,6 +3,7 @@ message: "If you use this repository, please cite it as below."
 authors:
   - family-names: Rocks-Macqueen
     given-names: Doug
+    orcid: https://orcid.org/0000-0001-9021-0260
   - family-names: van der Knaap
     given-names: Laura
   - family-names: Romanowska
